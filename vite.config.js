@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base: '/react-resume/',
   build: {
-    outDir: 'docs', // This is important for GitHub Pages
+    outDir: 'root', // This is important for GitHub Pages
   },
 })
